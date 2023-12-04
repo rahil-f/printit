@@ -40,7 +40,6 @@ function turn(dirrection) {
 	document.getElementsByClassName("dot_selected")[0].classList.remove("dot_selected"); // retirer le point selectionner
 	document.getElementsByClassName("dot")[selected].classList.add("dot_selected"); // ajouter le point selectionner
 	document.querySelector("#banner p").innerHTML = slides[selected].tagLine; // changer la tag line
-	console.log(selected)
 }
 
 const dots = document.getElementsByClassName("dots")[0]; //element dots
